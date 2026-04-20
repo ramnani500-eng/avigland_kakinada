@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avighna Land Developers & Builders | Kakinada's Most Trusted Real Estate</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Manrope:wght@300;400;500;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="/img/logo.png" type="image/png">
+  <link rel="stylesheet" href="/src/main.css">
+</head>
+
+<body>
+
+  <!-- PREMIUM NAVIGATION -->
+  <header id="main-header">
+    <div class="nav-container">
+      <a href="#" class="nav-brand">
+        <div class="logo-wrapper">
+          <img src="/img/logo.png" alt="Avighna Logo" class="nav-logo">
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">AVIGHNA </span>
+          <span class="brand-tag">Land Developers and Builders</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+        <li class="nav-item has-dropdown">
+          <a href="#offerings" class="nav-link">Projects <span class="dropdown-arrow">▾</span></a>
+          <ul class="dropdown">
+            <li class="dropdown-item"><a href="#featured-project" class="dropdown-link">Ongoing Projects</a></li>
+            <li class="dropdown-item"><a href="#previous-projects" class="dropdown-link">Completed Projects</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="#trust" class="nav-link">About Us</a></li>
+        <li class="nav-item"><a href="#reviews" class="nav-link">Testimonials</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="tel:+917995843339" class="nav-icon-link" title="Call Us">📞</a>
+        <a href="https://wa.me/917995843339" target="_blank" class="nav-icon-link" title="WhatsApp">💬</a>
+        <a href="tel:+917995843339" class="btn-cta btn-cta-visit">Book Free Site Visit</a>
+        <div class="mobile-toggle" id="mobile-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <nav class="mobile-nav" id="mobile-nav">
+      <ul class="mobile-menu">
+        <li><a href="#home" class="mobile-link">Home</a></li>
+        <li>
+          <span class="mobile-label">Projects <span class="dropdown-arrow">▾</span></span>
+          <ul class="mobile-sub-menu">
+            <li><a href="#featured-project" class="mobile-link sub-link">Ongoing Projects</a></li>
+            <li><a href="#previous-projects" class="mobile-link sub-link">Completed Projects</a></li>
+          </ul>
+        </li>
+        <li><a href="#reviews" class="mobile-link">Testimonials</a></li>
+        <li><a href="#trust" class="mobile-link">About Us</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+        <li><a href="tel:+917995843339" class="btn-cta btn-cta-visit">Book Free Site Visit</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="home">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">AP RERA Registered · Kakinada's Most Trusted</div>
+        <h1>Your Dream Land<br>in <em>Kakinada</em> — Safe,<br>Legal & Profitable</h1>
+        <p class="hero-sub">Verified residential plots, commercial layouts & apartments in Kakinada's fastest-growing area. Invest today — protect your family's future forever.</p>
+        <div class="hero-ctas">
+          <a href="tel:+917995843339" class="btn-primary">📞 Book Free Site Visit</a>
+          <a href="#offerings" class="btn-premium">
+            <span>View Projects</span>
+            <span class="icon-arrow">→</span>
+          </a>
+        </div>
+        <div class="hero-urgency">Only a few plots remaining — prices rising soon!</div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">4.6★</div>
+            <div class="stat-label">Google Rating</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">500+</div>
+            <div class="stat-label">Happy Families</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">RERA Verified</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Get Free Property Details</h3>
+        <p>Tell us what you're looking for — our expert will call you within 30 minutes.</p>
+        <div class="form-field">
+          <input type="text" placeholder="Your Full Name" />
+        </div>
+        <div class="form-field">
+          <input type="tel" placeholder="Your Mobile Number" />
+        </div>
+        <div class="form-field">
+          <input type="email" placeholder="Your Email Address" />
+        </div>
+        <div class="form-field">
+          <select>
+            <option value="" disabled selected>I'm Interested In...</option>
+            <option>Simplex Houses</option>
+            <option>Open Plots</option>
+            <option>Apartments</option>
+            <option>Villas</option>
+            <option>all of the above</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <select>
+            <option value="" disabled selected>Budget Range</option>
+            <option>Under ₹10 Lakhs</option>
+            <option>₹10 – ₹25 Lakhs</option>
+            <option>₹25 – ₹50 Lakhs</option>
+            <option>₹50 Lakhs+</option>
+          </select>
+        </div>
+        <button class="form-submit" onclick="sendToSheet(event)">
+          Get Free Callback →
+        </button>
+        <p class="form-note">🔒 100% confidential. No spam. No pressure.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAND -->
+  <div class="trust-band">
+    <div class="trust-item">✅ <strong>AP RERA Registered</strong></div>
+    <div class="trust-item">⭐ <strong>4.6 Google Rating</strong></div>
+    <div class="trust-item">🏦 <strong>SBI Bank-Financed Projects</strong></div>
+    <div class="trust-item">🏆 <strong>10+ Years of Trust</strong></div>
+    <div class="trust-item">📍 <strong>Prime Kakinada Location</strong></div>
+    <div class="trust-item">🏆 <strong>Approved KAUDA</strong></div>
+  </div>
+
+  <!-- ─── TRUST & CREDIBILITY ─── -->
+  <section class="trust-section" id="trust">
+    <div class="section-inner">
+      <div class="fade-up">
+        <span class="section-label">Why Choose Us</span>
+        <h2 class="section-title">Kakinada's <em>Most Trusted</em><br>Real Estate Company</h2>
+        <p class="section-desc">Built on honesty, backed by RERA, and loved by hundreds of families who invested with confidence and peace of mind.</p>
+      </div>
+      <div class="trust-cards fade-up">
+        <div class="trust-card">
+          <div class="trust-icon">🏛️</div>
+          <h4>AP RERA Registered</h4>
+          <p>Officially registered under Andhra Pradesh RERA. Your investment is legally protected and fully transparent from day one.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">⭐</div>
+          <h4>4.6★ Google Rating</h4>
+          <p>Hundreds of real buyers have shared their experiences — and the reviews speak for themselves. Consistently rated among Kakinada's best.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">👨‍💼</div>
+          <h4>Professional Expert Team</h4>
+          <p>From site selection to registration, our experienced team guides you through every step. No confusion. No stress. Just clarity.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">📍</div>
+          <h4>Prime Location in Kakinada</h4>
+          <p>Located beside SBI Bank — the most accessible, well-connected, and fast-appreciating area in Kakinada.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">💰</div>
+          <h4>Best Pricing Guaranteed</h4>
+          <p>Competitive market rates with no hidden charges. What you see is what you pay. Transparent pricing that families trust.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">🤝</div>
+          <h4>End-to-End Support</h4>
+          <p>We don't disappear after the sale. Our team supports you through documentation, registration, loans, and beyond.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TESTIMONIALS ─── -->
+  <section class="testimonials-section" id="reviews">
+    <div class="section-inner">
+      <div class="fade-up">
+        <span class="section-label">Real Customer Reviews</span>
+        <h2 class="section-title">Families Who Trusted Us<br>Never Looked Back</h2>
+        <div class="rating-row">
+          <div class="rating-big">4.6</div>
+          <div class="rating-info">
+            <div class="stars">★★★★★</div>
+            <p>Based on Google Reviews · Kakinada, AP</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-grid fade-up">
+        <div class="tcard">
+          <p class="tcard-text">An excellent place to invest your money. The team is knowledgeable and truly helped me understand every detail before purchasing. Very satisfied with my plot.</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar">R</div>
+            <div>
+              <div class="tcard-name">Ravi Kumar</div>
+              <div class="tcard-stars">★★★★★ Residential Plot</div>
+            </div>
+          </div>
+        </div>
+        <div class="tcard">
+          <p class="tcard-text">Very helpful staff and great pricing for commercial layouts. I compared many options in Kakinada and Avighna gave the best value. Highly recommended!</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar">P</div>
+            <div>
+              <div class="tcard-name">Priya Lakshmi</div>
+              <div class="tcard-stars">★★★★★ Commercial Layout</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FEATURED PROJECT ─── -->
+  <section class="featured-project-section" id="featured-project">
+    <div class="section-inner">
+      <div class="fade-up" style="text-align: center; margin-bottom: 40px;">
+        <span class="section-label">Exclusive Project</span>
+        <h2 class="section-title">Discover Our <em>Premium</em> Community</h2>
+      </div>
+      <a href="/project.html" class="rathnagiri-card fade-up">
+        <img src="/img/rathnagiri_villas.png" alt="Rathnagiri Villas">
+        <div class="rathnagiri-overlay">
+          <div class="rathnagiri-badge">New Launch</div>
+          <h3 class="rathnagiri-title">Rathnagiri Villas</h3>
+          <p class="rathnagiri-subtitle">Starting from ₹24 Lakhs</p>
+          <div class="rathnagiri-btn">
+            View Project <span style="font-size: 1.2rem;">→</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ─── OFFERINGS ─── -->
+  <section class="offerings-section" id="offerings">
+    <div class="section-inner">
+      <div class="fade-up">
+        <span class="section-label">Our Projects</span>
+        <h2 class="section-title">Find the Right Property<br>for <em>Your Goals</em></h2>
+      </div>
+      <div class="offerings-grid fade-up">
+        <div class="offer-card">
+          <div class="offer-header">
+            <div class="offer-icon">🏡</div>
+            <h3>Residential Plots</h3>
+            <p class="tagline">Build your family home on verified, legal land</p>
+          </div>
+          <div class="offer-body">
+            <ul class="offer-list">
+              <li>Clear legal titles with full documentation</li>
+              <li>Prime locations near schools, hospitals & banks</li>
+              <li>Bank-loan eligible (SBI & other banks)</li>
+            </ul>
+          </div>
+          <a href="tel:+917995843339" class="offer-cta">Enquire About Plots →</a>
+        </div>
+        <!-- More cards... -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PREVIOUS PROJECTS ─── -->
+  <section class="prev-projects-section" id="previous-projects">
+    <div class="section-inner">
+      <div class="fade-up" style="text-align: center; margin-bottom: 24px;">
+        <span class="section-label">Our History</span>
+        <h2 class="section-title">Our <em>Previous</em> Projects</h2>
+      </div>
+
+      <div class="projects-grid fade-up">
+        <div class="project-card">
+          <div class="project-img-container">
+            <span class="status-badge">Completed</span>
+            <img src="/img/Brundevanam broucher_page-0001.jpg" alt="Brundevanam Project">
+          </div>
+          <div class="project-content">
+            <span class="project-loc">Kakinada (Chitrada)</span>
+            <h3>Brundavanam</h3>
+            <p>VUDA approved open plots with modern infrastructure near highway.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img-container">
+            <span class="status-badge">Completed</span>
+            <img src="/img/sri pradam.png" alt="Avighna Sri Pradam">
+          </div>
+          <div class="project-content">
+            <span class="project-loc">Kakinada</span>
+            <h3>Avighna Sri Pradam</h3>
+            <p>Premium residential layout with clear titles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── LOCATION ─── -->
+  <section id="location" style="padding: 50px; background:#F5F7FA; text-align:center;">
+    <h2 style="color:#1E3A5F; font-size:28px; margin-bottom:15px;">Our Location</h2>
+    <div style="max-width:1000px; margin:auto; border-radius:12px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.08);">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9537.382421083841!2d82.2277732836788!3d16.975829185287317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a38286a5d35b0b5%3A0x12eca7cb999f44b6!2sAVIGHNA%20LAND%20DEVELOPERS%20%26%20BUILDERS!5e0!3m2!1sen!2sin!4v1774359807668!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-bottom">
+        <p>© 2024 Avighna Land Developers & Builders. All rights reserved.</p>
+        <div class="rera-badge">✅ AP RERA Registered</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
